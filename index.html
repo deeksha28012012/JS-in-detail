@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="a"></p>
+    <script>
+        try{
+            addalert("welcome everyone");
+        }
+        catch(e){
+            document.getElementById("a").innerHTML=e.message;
+        }
+    </script>
+</body>
+</html>
